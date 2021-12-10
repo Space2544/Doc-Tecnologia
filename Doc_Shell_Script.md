@@ -204,9 +204,9 @@ ___
 
  Já imaginou se você pudesse procurar por uma pasta ou por algum arquivo no terminal?, sim isso é possivel mas não da maneira que talvez você esteja pensando, vamos supor que você precisa saber o porque uma dependencia está dando problema, e então você não tem ideia nenhuma de qual é a localização pra corrigir isso, e então é ai onde esse comando entra em ação, e seu nome é: 
  **find**: find do inglês significa procurar, encontrar, serve para encontrar o caminho do arquivo ou pasta que você está procurando, mas claro, tem que ser de maneira especifica, exemplo:
- ```bash
- $ find . -name Downloads
- ```
+```bash
+$ find . -name Downloads
+```
  Nesse momento o computador vai entregar o resultado da pesquisa, e assim mostrará o que você provavelmente está procurando.
  Esse **.** após o find quer dizer em que local o computador deve procurar por esse arquivo, diretorio e etc.
  então se quiser você pode ir e colocar algo mais especifico como **/** que é a raiz do sistema, exe,plo:
@@ -219,10 +219,10 @@ ___
  O terminal tem um comando muito interessante chamado:
 
  **file**: file ou do inglês arquivo, serve para mostrar detalhes do que é tal arquivo, e tem como saber se algo é ou não um diretorio, um arquivo de imagem sem extensão, exemplo:
- ```bash
- $ file hello
- hello: Bourne-Again shell script, ASCII text executable
- ```
+```bash
+$ file hello
+hello: Bourne-Again shell script, ASCII text executable
+```
  então como podemos ver acima **hello** é um arquivo de shell script mas sem a extensão **.sh**, e é só seguir o exemplo acima, colocar o comando file mais o nome do arquivo que você quer saber sobre.
 ___
  Outro comando muito interessante é o:
@@ -250,14 +250,46 @@ ___
  Temos um comando no shell que se assemelha muito ao find, mas serve para encontrar uma linha especifica no arquivo, e esse comando se chama:
 
  **grep**: grep é um comando muito utilizado para por exemplo pesquisar determinada palavra em um determinado arquivo, exemplo:
- ``bash
- $ grep bash /etc/passwd
+```bash
+$ grep bash /etc/passwd
+```
 
- ```
  O que eu estou procurando é alguma linha que tenha a palavra "bash" no arquivo do passwd, e temos a opção -i pra procurar até mesmo o que está em maiusculo, -o pra somente mostrar o que você procura mesmo sem ser a linha inteira e etc. Lembrando que essas opções você coloca na frente do grep:
- ```bash
+
+```bash
  $ grep -i ...
  $ grep -o ...
- ```
+```
  E então você dá a continuidade a o que quer procurar em um determinado arquivo.
- ___
+___
+ Um comando que te ajuda a poupar muito tempo é o:
+ **cut**: Cut do inglês, cortar, serve parar **cortar** uma parte de um        documento de texto (por exemplo) que é especificada pelo usuario.
+ Dessa forma você pode pegar informações úteis sem precisar gastar seu tempo:
+```bash
+$ cut -c '1-4' teste.sh
+echo
+```
+ Essa opção -c quer dizer que é pra apenas cortar **caracteres**, e nesse caso quisemos que mostrasse apenas do 1 até 4, então apareceu assim. Ou se prefirir pode digitar dessa forma também: **'1,2,3,4'**. Além dessa opção temos também a opção -d e a -f, **-d** serve para delimitar até que "ponto"
+é pra manter, então quando você faz isso o resto é "eliminado". Usando aspas simples '' você coloca o delimitador de sua preferencia.
+Já a opção **-f** serve para delimitar o "campo", então vamos com um exemplo aqui abaixo de como você pode combinar esses dois:
+```bash
+$ cut -d ',' -f  '1-2' test.txt
+echo this is a tiny, very tiny test
+```
+ Dessa forma pegamos o que está no primeiro campo e no segundo, agora de forma separada vai ser mais fácil de entender:
+```bash
+$ cut -d ',' -f  '1' test.txt
+echo this is a tiny
+```
+ Foi possível ver que só pegou o primeiro **campo** que foi **determinado** pela virgula. Agora a segunda parte:
+```bash
+$ cut -d ',' -f  '2' test.txt
+very tiny test
+```
+ E assim o segundo campo apareceu. Se quiser, você pode determinar qualquer pontuação por exemplo dentro das aspas da opção **-d**, assim é possível fazer também com o número de campos dentro de **-f**.
+ E o melhor de tudo é que você pode fazer com que tudo o que você colocou para cortar e etc pode ser passado pra um outro arquivo com todas as alterações sem precisar se quer dar CTRL + Shift + C e CTRL + Shift + V.
+ Pra isso é utilizado essa opção aqui **>**, e dessa forma você consegue mandar tudo para o arquivo que você quer criar:
+```bash
+$ cut -d ',' -f  '1' test.txt > test2.txt
+```
+___
