@@ -1,4 +1,4 @@
-# Docs_de_tecnologia_(versão em MarkDown).
+# Docs de tecnologia (versão em MarkDown).
 
 ## O que é essa documentação?
 Está é uma documentação que estou fazendo conforme assisto videos, leio livros, fazendo cursos e claro tudo isso sendo anotado e analisado, é altamente 
