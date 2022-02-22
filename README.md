@@ -36,7 +36,7 @@ Eu serei eternamente grato por isso, e me deixará motivado a continuar mais e m
 
 ## Por que decidiu fazer tudo isso?
 
-Porque eu amo aprender, ajudar os outros, saber mais sobre programação, saber mais sobre sistemas operacionais.
+Porque eu amo aprender, ajudar os outros, saber mais sobre programação, saber mais sobre sistemas operacionais por exemplo e eu sou "apaixonado" por isso.
 
 ## Qual é a frequência das atualizações?
 
