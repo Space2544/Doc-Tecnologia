@@ -2,6 +2,8 @@
 
 ## O que é essa documentação?
 
+https://64.media.tumblr.com/02bb849d05c6d344e18d777aeffe1e06/tumblr_mjh4uxNAkb1s14h9co1_500.gif
+
 Está é uma "documentação" que estou fazendo conforme assisto videos, leio livros, fazendo cursos e claro tudo isso sendo anotado e analisado, é altamente 
 recomendado para o pessoal que está começando e que tem um certo conhecimento na área que for documentada por mim. E pode servir para você usar como uma consulta 
 rápida. (obs: pode ser que algumas coisas não estejam finalizadas.)
