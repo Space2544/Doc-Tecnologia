@@ -2,6 +2,9 @@
 
 ## O que é essa documentação?
 
+Inline-style: 
+![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.BGxc_fsmSXWk7SuxD3HXeAHaFF%26pid%3DApi&f=1 "Logo Title Text 1")
+
 Está é uma "documentação" que estou fazendo conforme assisto videos, leio livros, fazendo cursos e claro tudo isso sendo anotado e analisado, é altamente 
 recomendado para o pessoal que está começando e que tem um certo conhecimento na área que for documentada por mim. E pode servir para você usar como uma consulta 
 rápida. (obs: pode ser que algumas coisas não estejam finalizadas.)
