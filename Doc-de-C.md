@@ -12,17 +12,17 @@ ___
 
 Esta será uma documentação/anotação sobre a linguagem de programação C, uma linguagem de programação de alto nivel com funções de baixo nivel como de 
 assembly e que entrga uma performance incrivel, fácil de entender sua sintaxe e seu código é altamente mantivel por essa razão. 
-A documentação é uma junção de cursos, outras documentações, 
-fóruns, vídeos que assisti e livros que eu fiz uma leitura e resolvi anotar pra formar essa documentação.
+A documentação é uma junção de cursos, outras documentações, fóruns, vídeos que assisti e livros que eu fiz uma leitura e resolvi anotar pra formar essa 
+documentação.
 
 
 # Prefácio
 
  Falando de modo geral, C é uma das liguagens de programação considerada “baixo nivel” com alta performance e com uma boa legibilidade disponivel para o
 uso, foi criada em 1972 por Dennis Richie na empresa AT&T no láboratorio de pesquisas Bell Labs, essa linguagem foi criada para o sistema Unix que deu 
-origem e inspiração a vários outros sistemas operacionais, apelidado pela comunidade de "Familia Unix", dentro dessa família temos, MacOS, Linux, BSD e 
-claro inúmeras distros Linux e BSD.
- E essa linguagem é considerada a “mãe” das linguagens de programação, já que deu origens a inúmeras outras linguagens.
+origem a uma versão "open source" criada na universidade de Berkeley - Califórnia (BSD) e inspiração a vários outros sistemas operacionais, apelidado pela 
+comunidade de "Familia Unix", dentro dessa família temos, MacOS, Linux, BSD e claro inúmeras distros Linux e BSD.
+ E C é considerada a “mãe” das linguagens de programação, já que deu origem a linguagens como Python, Lua, C++ e a lista vai.
 
 ## Mas pra que serve a línguagem C?
 
